@@ -1,6 +1,3 @@
-import * as React from 'react';
+import useFlatForm from './useFlatForm';
 
-// Delete me
-export const Hello = () => {
-  return <div>Hey everyone</div>;
-};
+export default { useFlatForm };
