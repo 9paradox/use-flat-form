@@ -1,3 +1,3 @@
 import useFlatForm from './useFlatForm';
 
-export default { useFlatForm };
+export default useFlatForm;

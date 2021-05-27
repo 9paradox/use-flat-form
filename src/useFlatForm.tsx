@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-const useFlatForm = <T extends {}>(): [
+const useFlatForm = <T extends {}>(initialState: T): [
   T,
   (fieldName: keyof T, value: any) => void,
   (state: T) => void
 ] => {
-  const [state, setState] = useState<T>({} as T);
+  const [state, setState] = useState<T>(initialState);
 
   const setInputState = (fieldName: keyof T, value: any) => {
     if (!fieldName) return;
