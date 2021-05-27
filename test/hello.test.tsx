@@ -1,11 +1,11 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Hello } from '../src';
 
 describe('it', () => {
-  it('renders without crashing', () => {
+  it('renders Hello without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Hello />, div);
+    const Hello = () => { return <p>Hello</p>};
+    ReactDOM.render(<Hello/>, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
