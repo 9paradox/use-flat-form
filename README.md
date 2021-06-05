@@ -1,10 +1,10 @@
 # useFlatForm
 
-[![NPM](https://img.shields.io/npm/v/use-flat-form.svg)](https://www.npmjs.com/package/use-flat-form)  ![NPM License](https://img.shields.io/npm/l/use-flat-form) ![minified size](https://img.shields.io/bundlephobia/min/use-flat-form)
-
 A simple react form hook for multiple inputs. 
 
 No need to create multiple useState hooks to manage your react form.
+
+[![NPM](https://img.shields.io/npm/v/use-flat-form.svg)](https://www.npmjs.com/package/use-flat-form)  ![NPM License](https://img.shields.io/npm/l/use-flat-form) ![minified size](https://img.shields.io/bundlephobia/min/use-flat-form)  ![downloads](https://img.shields.io/npm/dm/use-flat-form)
 
 ## Install
 
