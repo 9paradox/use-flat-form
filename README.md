@@ -17,7 +17,7 @@ npm i use-flat-form
 ```tsx
 import * as React from 'react'
 
-import useFlatForm from 'useFlatForm'
+import useFlatForm from 'use-flat-form'
 
 //your initial state
 const initState = {
